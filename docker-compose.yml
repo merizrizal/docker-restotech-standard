@@ -6,8 +6,8 @@ services:
       context: .
     container_name: restotech_standard_server
     ports:
-      - 8180:80
-      - 40443:443
+      - 8181:80
+      - 41443:443
     command: bash -c "service apache2 start && bash"
     tty: true
     depends_on:
